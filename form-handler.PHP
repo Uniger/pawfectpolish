@@ -9,7 +9,7 @@ $email_body = "User Name: $name.\n".
               "User Email: $visitor_email.\n".
               "subject: $subject.\n".
               "User Message: $message.\n";
-$to ] 'gehad.raafat1@gmail.com';
+$to = 'gehad.raafat1@gmail.com';
 $headers = "From: $email_form \r\n";
 $headers .="Replay-To: $visitor_email \r\n";
 mail($to,$email_subject,$email_body,$headers);
